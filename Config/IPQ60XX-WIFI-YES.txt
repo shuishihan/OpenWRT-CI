@@ -21,5 +21,3 @@ CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-cs-02=y
 CONFIG_PACKAGE_luci-app-hd-idle=y
 CONFIG_PACKAGE_luci-app-p910nd=y
 CONFIG_PACKAGE_kmod-lp=y
-CONFIG_PACKAGE_luci-app-openclash=y
-
