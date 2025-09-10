@@ -75,6 +75,7 @@ UPDATE_PACKAGE "luci-app-accesscontrol-plus" "kingyond/luci-app-accesscontrol-pl
 UPDATE_PACKAGE "luci-app-atcommands" "4IceG/luci-app-atcommands" "main"
 UPDATE_PACKAGE "luci-app-modemband" "4IceG/luci-app-modemband" "main"
 UPDATE_PACKAGE "luci-app-modemdefine" "4IceG/luci-app-modemdefine" "main"
+UPDATE_PACKAGE "luci-app-mwan3helper" "padavanonly/luci-app-mwan3helper" "main"
 
 #更新软件包版本
 UPDATE_VERSION() {
