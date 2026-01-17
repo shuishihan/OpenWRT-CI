@@ -65,12 +65,6 @@ if [[ "${WRT_TARGET^^}" == *"QUALCOMMAX"* ]]; then
 		find $DTS_PATH -type f ! -iname '*nowifi*' -exec sed -i 's/ipq\(6018\|8074\).dtsi/ipq\1-nowifi.dtsi/g' {} +
 		echo "qualcommax set up nowifi successfully!"
 	fi
-    #其他调整
+	#其他调整
 	echo "CONFIG_PACKAGE_kmod-usb-serial-qualcomm=y" >> ./.config
 fi
-#修改雅典娜和亚瑟内核大小为12M
-sed -i 's/6144k/12288k/g' $GITHUB_WORKSPACE/wrt/target/linux/qualcommax/image/ipq60xx.mk
-#关闭LED
-mkdir -p files/etc/rc.d
-cp $GITHUB_WORKSPACE/S99turnoffled $GITHUB_WORKSPACE/wrt/files/etc/rc.d
-chmod 777 $GITHUB_WORKSPACE/wrt/files/etc/rc.d/S99turnoffled
