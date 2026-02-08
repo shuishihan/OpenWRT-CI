@@ -74,6 +74,11 @@ UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
+UPDATE_PACKAGE "luci-app-accesscontrol-plus" "kingyond/luci-app-accesscontrol-plus" "main"
+UPDATE_PACKAGE "luci-app-atcommands" "4IceG/luci-app-atcommands" "main"
+UPDATE_PACKAGE "luci-app-modemband" "4IceG/luci-app-modemband" "main"
+UPDATE_PACKAGE "luci-app-modemdefine" "4IceG/luci-app-modemdefine" "main"
+UPDATE_PACKAGE "luci-app-mwan3helper" "padavanonly/luci-app-mwan3helper-chinaroute" "main"
 
 #更新软件包版本
 UPDATE_VERSION() {
