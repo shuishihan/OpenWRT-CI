@@ -91,6 +91,12 @@ UPDATE_PACKAGE "mt5700" "LianXia233/luci-app-mt5700" "main"
 UPDATE_PACKAGE "mt5700m" "LianXia233/luci-app-mt5700m" "main"
 UPDATE_PACKAGE "netmonitor" "LianXia233/luci-app-netmonitor" "main"
 UPDATE_PACKAGE "qmodem-generic" "LianXia233/luci-app-qmodem-generic" "main"
+UPDATE_PACKAGE "luci-app-atcommands" "4IceG/luci-app-atcommands" "main"
+UPDATE_PACKAGE "luci-app-modemband" "4IceG/luci-app-modemband" "main"
+UPDATE_PACKAGE "luci-app-modemdefine" "4IceG/luci-app-modemdefine" "main"
+UPDATE_PACKAGE "luci-app-mwan3helper" "padavanonly/luci-app-mwan3helper-chinaroute" "main"
+UPDATE_PACKAGE "luci-app-rtp2httpd" "stackia/rtp2httpd" "main"
+UPDATE_PACKAGE "luci-app-oaf" "destan19/OpenAppFilter" "master"
 
 #更新软件包版本
 UPDATE_VERSION() {
