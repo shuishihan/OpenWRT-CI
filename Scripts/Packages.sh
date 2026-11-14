@@ -96,7 +96,7 @@ UPDATE_PACKAGE "luci-app-modemband" "4IceG/luci-app-modemband" "main"
 UPDATE_PACKAGE "luci-app-modemdefine" "4IceG/luci-app-modemdefine" "main"
 UPDATE_PACKAGE "luci-app-mwan3helper" "padavanonly/luci-app-mwan3helper-chinaroute" "main"
 UPDATE_PACKAGE "luci-app-rtp2httpd" "stackia/rtp2httpd" "main"
-UPDATE_PACKAGE "luci-app-oaf" "destan19/OpenAppFilter" "master"
+#UPDATE_PACKAGE "luci-app-oaf" "destan19/OpenAppFilter" "master"
 
 #更新软件包版本
 UPDATE_VERSION() {
